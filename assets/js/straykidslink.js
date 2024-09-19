@@ -34,7 +34,7 @@ customElements.define(
        // const singerName = this.getAttribute("bandMember")
        // const singerNameText = singerName != null ? ` - ${singerName}`: ""
 
-        const title = `${dateOfMonth}${singerNameText}`
+        const title = `${dateOfMonth}`
 
         const id = this.getAttribute("id")
         const link = this.getAttribute("link")
