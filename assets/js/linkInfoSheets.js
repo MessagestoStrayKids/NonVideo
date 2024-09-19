@@ -1,8 +1,8 @@
 
 
 async function LoadLinks() {
-    const id = "19KgctQfgRoTcRP1Pm9-FL8KKvLPhMYpIvnSXJ9CWIZI"
-    const gid = "0"
+    const id = "1BUQ0wvse3bz0u3rdCVmHGzZG0Lo-SyJnH5d2q8eTp0w"
+    const gid = "1866057721"
     const sheet = await LoadSheet(id, gid)
     let accumulator = []
     for (let i = 0; i < sheet.length; i++){
