@@ -31,8 +31,8 @@ customElements.define(
 
         const dateOfMonth = `${date.getFullYear()}.${date.getMonth()}.${date.getDay()}`
 
-        const singerName = this.getAttribute("bandMember")
-        const singerNameText = singerName != null ? ` - ${singerName}`: ""
+       // const singerName = this.getAttribute("bandMember")
+       // const singerNameText = singerName != null ? ` - ${singerName}`: ""
 
         const title = `${dateOfMonth}${singerNameText}`
 
